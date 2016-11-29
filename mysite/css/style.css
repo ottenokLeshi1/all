@@ -1,0 +1,59 @@
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	margin:0;
+	padding: 0;
+}
+.header{
+	background-color: #0c8;
+}
+.main-navigation{
+	width: 459px;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	list-style: none;
+}
+.main-navigation li{
+	font-size: 24px;
+	display: inline-block;
+}
+.main-navigation a{
+	display: block;
+	padding: 10px 25px 10px 25px;
+}
+.active{
+	border-bottom: solid 4px #000;
+}
+
+.info{
+	background-color: #ff7;
+}
+.info h1{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+
+.all-works{
+	background-color: #675;
+}
+.work{
+	background-color: #928;
+	padding: 25px;
+}
+.img{
+	float: left;
+	background-color: #fff;
+	width: 90px;
+	height: 90px;
+}

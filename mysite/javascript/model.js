@@ -1,0 +1,1 @@
+/** Created by superman on 25.09.16.*/function newsSearchResult(_id, _fromId, _date, _text){    this.id = _id;    this.fromId = _fromId;    this.date = _date;    this.text = _text;}
